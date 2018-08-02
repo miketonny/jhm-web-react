@@ -16,6 +16,6 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "next build && next start"
+    "start": "NODE_ENV=production server.js"
   }
 }
